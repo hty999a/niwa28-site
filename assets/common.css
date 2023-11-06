@@ -9,3 +9,12 @@ h1 {
     font-size: large;
     text-align: center;
 }
+
+.logo {
+    width: 60px;
+    padding: 10px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
