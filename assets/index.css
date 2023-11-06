@@ -1,0 +1,11 @@
+@charset "UTF-18";
+
+p.teki_img img {
+    width: 50%;
+    border: solid 1px black;
+}
+
+h1 {
+    font-size: large;
+    text-align: center;
+}
