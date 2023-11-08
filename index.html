@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
@@ -10,16 +9,35 @@
     <!-- user-scalable=yes は利用者が画面サイズを調整できる機能を有効にする -->
     <!-- initial-scale=1.0 は初期表示倍率は1.0 -->
     <title>niwa28サイト</title>
-    <link rel="stylesheet" href="assets/common.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/common.css">
     <!-- css指定 -->
-    <link rel="shortcut icon" href="assets/teki.jpg">
-    <!-- アイコン指定 -->
+    <link rel="shortcut icon" href="assets/img/logo.png">
+    <!-- ファビコン指定 (favorite icon) -->
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    <!-- タッチアイコン指定,ホーム画面にうつるアイコン -->
 </head>
 <!-- 以上、上のコメントアウトしているところは「!」では出ないところ -->
 
 <body>
-    <h1>niwa28サイト</h1>
-    <p class="teki_img"><img src="assets/teki.jpg" alt="アクセス画像"></p>
+    <header class="header">
+        <a href="index.html">
+            <h1 class="logo"><img src="assets/img/logo.png" alt="ロゴ"></h1>
+        </a>
+        <div class="bg"><img src="assets/img/worldtree.png" alt="背景画像"></div>
+        <div class="catch-copy"><span>niwaちゃんの家</span></div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <h1>niwa28サイト</h1>
+            <p class="teki_img"><img src="assets/img/teki.jpg" alt="アクセス画像"></p>
+        </div><!-- wrapper -->
+    </main>
+    <footer class="footer">
+        <p class="copy">
+            <small>&copy; niwa28サイト</small>
+        </p><!-- copy -->
+    </footer>
 </body>
 
 </html>
