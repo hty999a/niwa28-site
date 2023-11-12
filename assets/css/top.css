@@ -115,7 +115,7 @@ padding: 0;*/
 @media print,
 screen and (min-width: 768px) {
     .globalnav-list-content a:hover {
-        background: #000;
+        background: #e5789e;
         color: #fff;
     }
 }
