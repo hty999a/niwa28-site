@@ -132,13 +132,23 @@ screen and (min-width: 768px) {
     box-sizing: 300px;
 }
 
+.globalnav-list-content-wrapper a:hover {
+    opacity: 1;
+}
+
+@media print,
+screen and (min-width: 768px) {
+    .globalnav-list-content-wrapper a:hover {
+        background: rgb(120, 196, 229);
+        color: #fff;
+    }
+}
+
 /*padding: 3px;*/
 /*padding-right: 20px;*/
-
-
-.globalnav-list-content-wrapper a {
+/*.globalnav-list-content-wrapper a {
     z-index: 2;
-}
+}*/
 
 
 .niwa {
