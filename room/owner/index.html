@@ -50,11 +50,39 @@
     </header>
     <main>
         <h2>やあ、管理人部屋だよ！<br>今準備中なの！また来てね！</h2>
-        <form action="#" method="post">
-            <p><label>名前：<br><input type="text" name="person"></label></p>
-            <p><label>メールアドレス：<br><input type="email" name="mail"></label></p>
-            <input type="submit">
+        <form action="#" method="post" class="form">
+            <fieldset>
+                <legend>アンケート</legend>
+                <p>名前：<br><input type="text" name="person"></p>
+                <p><label>メールアドレス：<br><input type="email" name="mail"></label></p>
+                <p><label>今の年月日：<br><input type="date" name="date"></label></p>
+                <p>オーナーの知り合いですか：<br>
+                    <input type="radio" name="is_rel" id="radio1" value="yes" checked>
+                    <label for="radio1">はい</label>
+                    <input type="radio" name="is_rel" id="radio2" value="no">
+                    <label for="radio2">いいえ</label>
+                </p>
+                <p>好きな住人：<br>
+                    <input type="checkbox" name="fav_person" id="checkbox1" value="niwa"><label
+                        for="checkbox1">niwaちゃん</label>
+                    <input type="checkbox" name="fav_person" id="checkbox2" value="miwa"><label
+                        for="checkbox2">miwaちゃん</label>
+                </p>
+                <p>知った理由はなんですか？</p>
+                <select name="知った理由" required>
+                    <option>niwaちゃんが気になったから</option>
+                    <option>オーナーの知り合いから聞いた</option>
+                    <option>てきとうにこのurlを開いた</option>
+                </select>
+                <p>その他要望などあればお聞かせください：<br></p>
+                <textarea name="その他要望"></textarea>
+                <p><input type="submit"></p>
+                <button type="submit-btn">送信</button>
+            </fieldset>
         </form>
+        <div class="owner-download">
+            <a href="../../assets/others/teretere.pdf" download>pdfファイルをダウンロードする</a>
+        </div>
     </main>
     <footer class="footer">
         <p class="copy">

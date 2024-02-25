@@ -1,0 +1,43 @@
+.main {
+    text-align: center;
+}
+
+.this-person {
+    transform: perspective(500px) translateZ(100px) rotateX(45deg);
+}
+
+.miwa-button {
+    background-color: blueviolet;
+}
+
+.miwa-button:hover {
+    display: inline-block;
+    animation: myanim 1s;
+}
+
+@keyframes myanim {
+    0% {
+        transform: scale(1);
+        background: #abcf3e;
+    }
+
+    50% {
+        background: #fda8ec;
+    }
+
+    100% {
+        transform: scale(1.2);
+        background: #f3c90b;
+    }
+}
+
+.miwa-illustration {
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    background-color: #f3c424;
+    clip-path: ellipse(40px 20px at 50% 50%);
+}
+
+/*aタグを直接中央寄せしたり、transformすることはできない。
+またtransformに関してはdiplay inline-block*/

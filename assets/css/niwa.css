@@ -1,0 +1,30 @@
+.this-person {
+    /*text-align: center;*/
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: aquamarine;
+    transform:
+        translate(0, -50px) scale(2, 0.9) rotate(10deg);
+}
+
+.main {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.phone {
+    transition: 1s;
+    transform: scale(1);
+    background: #192;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px dotted black;
+    cursor: pointer;
+}
+
+.phone:hover {
+    transform: scale(2);
+    background-color: #f3c90b;
+}
